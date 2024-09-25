@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const pokemonUrls = [
-        'https://pokeapi.co/api/v2/pokemon/gengar',
-        'https://pokeapi.co/api/v2/pokemon/pikachu' // Substitua por outro Pokémon, se desejar
+        'https://pokeapi.co/api/v2/pokemon/charizard',
+        'https://pokeapi.co/api/v2/pokemon/regice' // Substitua por outro Pokémon, se desejar
     ];
 
     Promise.all(pokemonUrls.map(url => fetch(url).then(response => response.json())))
